@@ -1,0 +1,18 @@
+# Core engine, risk engine, backtester, agents, paper trading and the JSON-RPC
+# MCP transport are pure standard library (Python >= 3.11).
+
+# Tests
+pytest>=8.0
+
+# Timezone database for day rollover (required on Windows for e.g. "Europe/Prague")
+tzdata>=2024.1
+
+# Optional: CEX execution + public market data
+ccxt>=4.3
+
+# Optional: FastMCP server for Claude (otherwise use `python -m app.main mcp --jsonrpc`)
+mcp>=1.2
+
+# Optional: MetaTrader 5 connectivity (pick one transport)
+MetaTrader5>=5.0.45 ; sys_platform == "win32"
+pyzmq>=25.1

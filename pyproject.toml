@@ -1,0 +1,14 @@
+[project]
+name = "quantmind-propfirm-orchestrator"
+version = "0.1.0"
+description = "Terminal-first prop-firm orchestrator: hard risk engine, KER regime gate, generator-critic agents"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"

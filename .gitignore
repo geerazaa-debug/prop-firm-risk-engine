@@ -1,0 +1,8 @@
+# Runtime state: audit log and kill-switch sentinel are per-machine
+state/
+
+# Downloaded market data (regeneratable, can be large)
+data/*.csv
+
+# Trial ledger drives the snooping hurdle; it must survive state/ cleanups
+!research/prop_mc_trials.jsonl

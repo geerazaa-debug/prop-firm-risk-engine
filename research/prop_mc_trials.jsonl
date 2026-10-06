@@ -1,0 +1,4 @@
+{"params": {}, "strategy": "trend_breakout"}
+{"params": {"channel": 20, "stop_atr": 3.0, "target_r": 2.0}, "strategy": "trend_breakout_live"}
+{"params": {}, "strategy": "gold_pullback"}
+{"params": {}, "strategy": "ker_trend_vol"}
